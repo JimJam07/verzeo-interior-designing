@@ -1,0 +1,122 @@
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  letter-spacing: 2.5px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+  letter-spacing: 2.5px;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.carousel-item {
+  height: 100%;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+  color: black;
+}
+
+.carousel-caption {
+  bottom: 300px;
+}
+.carousel-caption h5 {
+  color: red;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+#about {
+  padding: 5% 13% 5%;
+  background-color: #e4e3e3;
+}
+.heading-about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: black;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial {
+  padding: 7% 15%;
+}
+
+.testimonials-image {
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+#designs {
+  background-color: #e4e3e3;
+  padding: 100px;
+  text-align: center;
+}
+
+.card-price {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+#contact {
+  padding: 5%;
+  text-align: center;
+}
+.social-icon {
+  margin: 200px 100px;
+}
+.footer {
+  background-color: #212f3d;
+  color: #fdfefe;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+.fa:hover {
+  color: white;
+}
+.fa-phone:hover {
+  color: white;
+}
+.fa-youtube-play:hover {
+  color: white;
+}
+.services-img {
+  height: 300px;
+  width: 300px;
+}
+.gallery-img {
+  height: 200px;
+  width: 270px;
+  padding: 12px;
+}
+.team-member,
+.gallery-img,
+.services {
+  transition: transform 0.5s;
+}
+.team-member:hover,
+.gallery-img:hover,
+.services:hover {
+  transform: scale(1.1);
+}
