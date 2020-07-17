@@ -1,3 +1,4 @@
+//use npm
 const http = require("http");
 const fs = require("fs");
 const url = require("url");
@@ -6,11 +7,12 @@ const parse = require("querystring").parse;
 const mysql = require("mysql");
 const port = 3000;
 var connection = mysql.createConnection({
-  host: "127.0.0.1",
-  port: "3306",
-  user: "root",
-  password: "Shanaa1020",
-  database: "design",
+  //use your details
+  host: "",
+  port: "",
+  user: "",
+  password: "",
+  database: "",
 });
 connection.connect((error) => {
   if (error) {
